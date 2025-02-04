@@ -1,0 +1,90 @@
+.navbar {
+  align-items: center;
+  justify-content: center;
+  padding: 12px 27px;
+  color: white;
+  display: flex;
+  /* width: 100%; */
+  background: rgb(188, 32, 49);
+  background: linear-gradient(
+    90deg,
+    rgba(188, 32, 49, 1) 0%,
+    rgba(40, 35, 97, 1) 100%
+  );
+}
+.navbarNames {
+}
+.navbarFirst {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex: 8;
+}
+
+.navbarSecond {
+  align-items: center;
+  display: flex;
+  flex: 3;
+}
+
+.nameFirst {
+  font-weight: 500;
+  font-size: 19px;
+}
+.nameSecond {
+  padding-top: 5px;
+  word-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 50;
+}
+.input {
+  padding: 6px 12px;
+  font-size: 18px;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  width: 25rem;
+  height: 2.3rem;
+  background-color: white;
+}
+.navButton {
+}
+.inputBox {
+  width: 25rem;
+  max-width: 100%;
+  position: relative;
+}
+.inputBox button {
+  padding: 8px 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+.iconSearch {
+  font-size: 18px;
+  color: black;
+}
+.line {
+  margin: 0px 25px;
+  height: 2rem;
+  width: 0.5px;
+  background-color: white;
+}
+.secondNavbarProfile {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.profileIcons {
+  font-size: 1.5rem;
+}
+.secondNavbarProfileButton {
+  padding: 2px 4px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 7px;
+  background: #e5e6e6;
+}
