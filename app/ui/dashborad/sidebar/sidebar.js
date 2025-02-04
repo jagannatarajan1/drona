@@ -72,12 +72,14 @@ const Sidebar = () => {
   return (
     <div className={styles.sideMenu}>
       <div className={styles.image}>
-        <Image
-          src="/header-logo-black.png"
-          alt="logo"
-          width={200}
-          height={30}
-        />
+        <Link href="/">
+          <Image
+            src="/header-logo-black.png"
+            alt="logo"
+            width={200}
+            height={30}
+          />
+        </Link>
       </div>
 
       <div className={styles.menuall}>
@@ -111,7 +113,7 @@ const Sidebar = () => {
       </div>
       <div className={styles.addNew}>
         <div className={styles.menuitemLastAdd}>
-          <Link href="/add-new" className={styles.link}>
+          <Link href="/dashboard/add-new" className={styles.link}>
             <div className={styles.menuitemLast}>
               <div className={styles.menuIcon}>
                 <BiPlusMedical className={styles.fontIcon} />

@@ -25,6 +25,7 @@
 
 .overview:hover {
   background-color: #ffffff;
+  color: black;
 }
 
 .overviewText {
