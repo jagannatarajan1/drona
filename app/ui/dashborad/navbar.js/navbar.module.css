@@ -4,7 +4,6 @@
   padding: 12px 27px;
   color: white;
   display: flex;
-  /* width: 100%; */
   background: rgb(188, 32, 49);
   background: linear-gradient(
     90deg,
@@ -46,8 +45,7 @@
   height: 2.3rem;
   background-color: white;
 }
-.navButton {
-}
+
 .inputBox {
   width: 25rem;
   max-width: 100%;

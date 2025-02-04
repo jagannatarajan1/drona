@@ -1,4 +1,4 @@
-"use client"; // Required for usePathname in Next.js App Router
+"use client"; 
 
 import Image from "next/image";
 import Link from "next/link";
@@ -20,7 +20,7 @@ import {
 } from "react-icons/fa";
 
 const Sidebar = () => {
-  const pathname = usePathname(); // Get the current active route
+  const pathname = usePathname(); 
 
   const sidebarMenu = [
     {

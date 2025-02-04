@@ -4,7 +4,6 @@ import "./globals.css";
 const openSans = Open_Sans({
   variable: "--font-open-sans",
   subsets: ["latin"],
-  // weight: ["400", "300", "700"],
 });
 
 export const metadata = {
