@@ -3,8 +3,6 @@ import styles from "./navbar.module.css";
 import { BsSearch } from "react-icons/bs";
 import { TbMessageDots } from "react-icons/tb";
 import { IoMdNotificationsOutline } from "react-icons/io";
-import Image from "next/image";
-import Link from "next/link";
 import Dropdown from "../dropdown/dropdown";
 
 const Navbar = () => {

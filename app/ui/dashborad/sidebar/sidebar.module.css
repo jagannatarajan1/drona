@@ -1,0 +1,115 @@
+.sideMenu {
+  width: 250px;
+  background: #111;
+  color: white;
+  height: 100vh;
+}
+
+.image {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.overview {
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  color: white;
+  padding: 13px;
+  border: 0.5px solid rgb(143, 142, 142);
+  background-color: #272727;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.overview:hover {
+  background-color: #ffffff;
+}
+
+.overviewText {
+  padding-left: 16px;
+}
+
+.overviewIcon {
+  font-size: 23px;
+}
+
+.menuall {
+  padding: 12px;
+  padding: 20px;
+  color: white;
+}
+
+.line {
+  margin-top: 19px;
+  background-color: white;
+}
+
+.menuitem {
+  padding: 6px;
+  align-items: center;
+  display: flex;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.menuitem:hover,
+.active {
+  background-color: #333;
+}
+
+.menuIcon {
+  font-size: 20px;
+
+  color: rgb(188, 32, 49);
+
+  padding-right: 15px;
+}
+.fontIcon {
+  font-size: 25px;
+}
+
+.special {
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.menuitemLast {
+  /* border: 1px solid; */
+  padding: 19px;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.addNew {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+.menuitemLastAdd {
+  text-align: center;
+  color: black;
+  background-color: white;
+
+  font-size: 1rem;
+  border: 0.5px solid white;
+  padding: 12px 57px;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+
+  /* border-radius: 12px;
+  align-items: center;
+  display: flex;
+  color: white;
+  padding: 13px;
+  border: 0.5px solid rgb(143, 142, 142);
+  background-color: #272727;
+  cursor: pointer;
+  transition: 0.3s; */
+}
